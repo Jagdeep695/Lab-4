@@ -4,8 +4,8 @@ namespace NUnitDemonstration
     {
         public static string ValidTriangle(int firstAngle, int secondAngle, int thirdAngle)
         {
-            string result;
-            if ((firstAngle + secondAngle + thirdAngle) == 180)
+            string result; //Jagdeep Singh
+            if ((firstAngle + secondAngle + thirdAngle) == 180) // After killing all the mutants in this source code
             {
                 result = "The triangle is valid.";
             }
